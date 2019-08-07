@@ -5,7 +5,8 @@ pagination:
 ---
 
 <section class="post-list">
-  {% for post in paginator.posts %}
+  {% assign work_items = site.posts | sort: 'date' | reverse %}
+  {% for post in work_items %}
     {% include article.html %}
   {% endfor %}
 
