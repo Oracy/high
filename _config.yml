@@ -1,0 +1,54 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/page/:num/"
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: high
+description: "Knowledge Sharing, Unix and other tech"
+keywords: "Jekyll, Unix, linux, articles, SEO, blog, web"
+url: http://martosit.com
+baseurl: "/high"
+
+google_analytics: UA-93790540-2
+repo: https://github.com/Oracy/high
+disqus_shortname: "oracymartos"
+disqus_site_shortname: "oracymartos"
+
+# Author settings
+author:
+  name: Oracy Martos
+  job: DBA, backend developer
+  bio: "Linux lover!! Enthusiast data science, backend focused on API!!! Always looking for the best project and good food."
+  thumb: /images/author.jpg
+  email: oramartos_21@hotmail.com
+  url: https://martosit.com/
+  github: https://github.com/oracy
+  twitter: https://twitter.com/Oracy_Martos
+  facebook: https://facebook.com/OracyRezendeM
+  linkedin: https://linkedin.com/in/oracymartos
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: icons
+    title: Icons
+  - slug: blog
+    title: Blog
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json", "README.md", "Rakefile"]
