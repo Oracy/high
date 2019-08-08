@@ -34,8 +34,8 @@ First of all we need to get all codes from somewhere, so we need who? Exactly
 
 ```bash
 sudo apt-get install git -y
-git config --global user.name "SEU NOME"
-git config --global user.email seu@email.com
+git config --global user.name "YOUR NAME"
+git config --global user.email your@email.com
 ```
 
 After install Git, we need to edit all those codes, and put our mind into logic as a big monster trying to get that little indefense lady!! haha
@@ -60,6 +60,7 @@ But the best part of VSCode is the extensions, I'll list my extensions here and 
 
 ```bash
 code --install-extension aaron-bond.better-comments
+code --install-extension abusaidm.html-snippets
 code --install-extension ahmadawais.shades-of-purple
 code --install-extension amandeepmittal.expressjs
 code --install-extension bbenoist.vagrant
@@ -67,38 +68,47 @@ code --install-extension bierner.emojisense
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension coolbear.systemd-unit-file
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
+code --install-extension dracula-theme.theme-dracula
 code --install-extension eamodio.gitlens
 code --install-extension eg2.vscode-npm-script
 code --install-extension eprincev-egor.toggle-upper-case
 code --install-extension esbenp.prettier-vscode
 code --install-extension fatihacet.gitlab-workflow
 code --install-extension formulahendry.auto-rename-tag
+code --install-extension formulahendry.code-runner
+code --install-extension foxundermoon.shell-format
+code --install-extension funkyremi.vscode-google-translate
 code --install-extension ginfuru.ginfuru-vscode-jekyll-syntax
 code --install-extension ginfuru.vscode-jekyll-snippets
+code --install-extension GrapeCity.gc-excelviewer
 code --install-extension Gruntfuggly.todo-tree
 code --install-extension HookyQR.beautify
+code --install-extension humao.rest-client
 code --install-extension jasonn-porch.gitlab-mr
 code --install-extension marcostazi.VS-code-vagrantfile
+code --install-extension micnil.vscode-checkpoints
 code --install-extension ms-azuretools.vscode-cosmosdb
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
 code --install-extension ms-vscode.azure-account
 code --install-extension ms-vscode.wordcount
 code --install-extension mtxr.sqltools
-code --install-extension nopjmp.fairyfloss
 code --install-extension oderwat.indent-rainbow
 code --install-extension pflannery.vscode-versionlens
 code --install-extension PKief.material-icon-theme
 code --install-extension pnp.polacode
 code --install-extension qezhu.gitlink
+code --install-extension rbbit.typescript-hero
 code --install-extension redhat.vscode-xml
 code --install-extension RoscoP.ActiveFileInStatusBar
 code --install-extension shd101wyy.markdown-preview-enhanced
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension streetsidesoftware.code-spell-checker-portuguese-brazilian
+code --install-extension timonwong.shellcheck
 code --install-extension vector-of-bool.gitflow
 code --install-extension xabikos.JavaScriptSnippets
 code --install-extension Zignd.html-css-class-completion
@@ -108,15 +118,21 @@ User Settings (ctrl + ,)
 
 ```json
 {
+  "editor.tabSize": 2,
   "emmet.includeLanguages": {
     "html": "html",
     "javascript": "javascriptreact"
   },
   "workbench.iconTheme": "material-icon-theme",
   "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 5000,
+  "files.autoSaveDelay": 2000,
+  "terminal.external.linuxExec": "iterm",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.shell.osx": "zsh",
+  "terminal.integrated.enableBold": true,
+  "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.rightClickCopyPaste": true,
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -174,16 +190,15 @@ User Settings (ctrl + ,)
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "expand",
   "files.trimFinalNewlines": true,
-  "editor.tabSize": 2,
-  "editor.renderWhitespace": "all",
-  "editor.renderFinalNewline": true,
-  "files.associations": {
-    "Vagrantfile": "ruby"
-  },
+  "gitlab.instanceUrl": "http://192.168.101.250/gitlab",
+  "window.zoomLevel": 0,
+  "shellformat.flag": "-i 4",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "window.zoomLevel": -1
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "editor.renderWhitespace": "all",
+  "extensions.ignoreRecommendations": false
 }
 ```
 
