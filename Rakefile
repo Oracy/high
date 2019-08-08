@@ -151,3 +151,39 @@ def strtag(str_tags)
 
   return tags
 end
+
+
+DATE = Time.now.strftime("%Y-%m-%d")
+TIME = Time.now.strftime("%H:%M:%S")
+POST_DIR = './source/_posts'
+
+desc "Generate new post"
+task :new_post do
+
+  puts 'Please write the post title'
+  @name = STDIN.gets.chomp
+  @title = @name.downcase.strip.gsub(' ', '-')
+  @file = "#{POST_DIR}/#{DATE}-#{@title}.markdown"
+  
+  puts 'Please write the post keywords'
+  @keywords = STDIN.gets.chomp
+  
+  puts 'Please write the post categories'
+  @categories = STDIN.gets.chomp
+  
+  if File.exists?("#{file}")
+    raise 'file already exists'
+  else
+    File.open(@file, 'a+') do |file|
+      file << "---\n"
+      file << "layout: post\n"
+      file << "title: \"#{@name}\"\n"
+      file << "date: #{DATE} #{TIME}\n"
+      file << "comments: true\n"
+      file << "image: \n"
+      file << "categories: #{@categories} \n"
+      file << "keywords: #{@keywords} \n"
+      file << "---\n"
+    end
+  end
+end
