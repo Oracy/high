@@ -1,14 +1,12 @@
 ---
 layout: post
 title: "Configuring Linux Environment to programming"
-date: 2019-08-07 20:58:56
+date: 2019-08-09 09:29:46
 comments: true
-image: [Preview](../images/posts/preview_configuring_linux_environment_to_programming.jpg)
+image: ../images/posts/preview_configuring_linux_environment_to_programming.jpg
 categories: environment
 keywords: programming, linux, vscode, R, RStudio, node, conda, python, jupyter, Fira Code, java
 ---
-
-_By Oracy Martos._
 
 Every time that you need to format your computer or get a new one, you have a big head ache, doesn't? Things like did I installed java? Or that extension that do not help in anything but you are in love about that, useless things that you do (not) live without them 😛.
 
