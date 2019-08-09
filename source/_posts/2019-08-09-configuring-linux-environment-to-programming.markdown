@@ -3,7 +3,7 @@ layout: post
 title: "Configuring Linux Environment to programming"
 date: 2019-08-09 09:29:46
 comments: true
-image: ../images/posts/preview_configuring_linux_environment_to_programming.jpg
+image: https://res.cloudinary.com/dvy4tauff/image/upload/v1565356687/preview_configuring_linux_environment_to_programming_p1oia4.jpg
 categories: environment
 keywords: programming, linux, vscode, R, RStudio, node, conda, python, jupyter, Fira Code, java
 ---
