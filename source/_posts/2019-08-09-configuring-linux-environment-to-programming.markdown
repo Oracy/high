@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Configuring Linux Environment to programming"
+author: "Oracy Martos"
 date: 2019-08-09 09:29:46
-modified_at: 2019-08-09 23:46:48
+modified_at: 2019-08-11 23:46:48
 comments: true
 image: https://res.cloudinary.com/dvy4tauff/image/upload/v1565356687/preview_configuring_linux_environment_to_programming_p1oia4.jpg
 categories: environment

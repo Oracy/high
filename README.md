@@ -47,9 +47,6 @@ Access, [localhost:4000/high](http://localhost:4000/high)
 
 It is under [the MIT license](/LICENSE).
 
-> :warning:
-> Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `source/_layouts/default.html`
-
 Enjoy :yum:
 
 Credits: github/nandomoreirame
