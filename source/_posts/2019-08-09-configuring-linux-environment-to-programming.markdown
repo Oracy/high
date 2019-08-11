@@ -25,11 +25,11 @@ First of all we need our _Version Control System_:
 
 ### [GIT](https://git-scm.com/download/linux)
 
-```bash
-sudo apt-get install git -y
-git config --global user.name "YOUR NAME"
-git config --global user.email your@email.com
-```
+<pre class="bash">
+  sudo apt-get install git -y
+  git config --global user.name "YOUR NAME"
+  git config --global user.email your@email.com
+</pre>
 
 ###### Replace `YOUR NAME` with your name and `your@email.com` with your real email.
 
@@ -39,17 +39,17 @@ After install Git, we need to and editor to create our codes, and in my opinion 
 
 ### [VSCode](https://code.visualstudio.com/)
 
-```bash
-   sudo apt-get install snapd snapd-xdg-open
-   sudo snap install --classic code
-```
+<pre class="bash">
+  sudo apt-get install snapd snapd-xdg-open
+  sudo snap install --classic code
+</pre>
 
 I used to work with VSCode in 90% of my time, so this software never left me in the lurch, I just exported my extensions and configuration file, probably I'll keep that updated because I'll really use that as my backup so, if you have others cools extensions, feel free to share with us.
 
 <details>
   <summary><b>VsCode extensions!</b></summary>
   
-  ```bash
+  <pre class="bash">
     code --install-extension aaron-bond.better-comments
     code --install-extension abusaidm.html-snippets
     code --install-extension ahmadawais.shades-of-purple
@@ -103,7 +103,7 @@ I used to work with VSCode in 90% of my time, so this software never left me in 
     code --install-extension vector-of-bool.gitflow
     code --install-extension xabikos.JavaScriptSnippets
     code --install-extension Zignd.html-css-class-completion
-  ```
+  </pre>
   
 </details>
 
@@ -112,90 +112,92 @@ I used to work with VSCode in 90% of my time, so this software never left me in 
 <details>
   <summary><b>User Settings (ctrl + ,)</b></summary>
   
-  ```json
-    {
-      "editor.tabSize": 2,
-      "emmet.includeLanguages": {
-        "html": "html",
-        "javascript": "javascriptreact"
-      },
-      "workbench.iconTheme": "material-icon-theme",
-      "files.autoSave": "afterDelay",
-      "files.autoSaveDelay": 2000,
-      "terminal.external.linuxExec": "iterm",
-      "terminal.external.osxExec": "iTerm.app",
-      "terminal.integrated.shell.osx": "zsh",
-      "terminal.integrated.enableBold": true,
-      "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
-      "terminal.integrated.fontSize": 14,
-      "terminal.integrated.rightClickCopyPaste": true,
-      "editor.wordWrap": "on",
-      "editor.formatOnSave": true,
-      "editor.formatOnPaste": true,
-      "editor.fontFamily": "Fira Code",
-      "editor.fontLigatures": true,
-      "workbench.editor.highlightModifiedTabs": true,
-      "explorer.sortOrder": "type",
-      // "editor.minimap.enabled": false,
-      "[javascript]": {
-        "editor.defaultFormatter": "numso.prettier-standard-vscode"
-      },
-      "workbench.iconTheme": "material-icon-theme",
-      "workbench.colorTheme": "Shades of Purple",
-      "prettier.jsxSingleQuote": true,
-      "prettier.printWidth": 100,
-      "prettier.semi": false,
-      "prettier.useTabs": true,
-      "prettier.tabWidth": 2,
-      "todo-tree.defaultHighlight": {
-        "icon": "alert",
-        "type": "text",
-        "foreground": "red",
-        "background": "white",
-        "opacity": 50,
-        "iconColour": "blue"
-      },
-      "todo-tree.defaultHighlight": {
-        "icon": "alert",
-        "type": "text",
-        "foreground": "red",
-        "background": "white",
-        "opacity": 50,
-        "iconColour": "blue"
-      },
-      "todo-tree.customHighlight": {
-        "TODO": {
-          "icon": "check",
-          "type": "line",
-          "foreground": "black",
-          "iconColour": "red"
+  <pre class="prettyprint" style="display: ">
+    <code class="language-json">
+      {
+        "editor.tabSize": 2,
+        "emmet.includeLanguages": {
+          "html": "html",
+          "javascript": "javascriptreact"
         },
-        "FIXME": {
-          "foreground": "black",
-          "iconColour": "yellow",
-          "icon": "bug"
+        "workbench.iconTheme": "material-icon-theme",
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 2000,
+        "terminal.external.linuxExec": "iterm",
+        "terminal.external.osxExec": "iTerm.app",
+        "terminal.integrated.shell.osx": "zsh",
+        "terminal.integrated.enableBold": true,
+        "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+        "terminal.integrated.fontSize": 14,
+        "terminal.integrated.rightClickCopyPaste": true,
+        "editor.wordWrap": "on",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.fontFamily": "Fira Code",
+        "editor.fontLigatures": true,
+        "workbench.editor.highlightModifiedTabs": true,
+        "explorer.sortOrder": "type",
+        // "editor.minimap.enabled": false,
+        "[javascript]": {
+          "editor.defaultFormatter": "numso.prettier-standard-vscode"
         },
-        "ASKFORHELP": {
-          "icon": "heart",
-          "iconColour": "pink"
-        }
-      },
-      "typescript.updateImportsOnFileMove.enabled": "always",
-      "cSpell.userWords": ["urlstations"],
-      "editor.cursorStyle": "line",
-      "editor.cursorBlinking": "expand",
-      "files.trimFinalNewlines": true,
-      "gitlab.instanceUrl": "http://192.168.101.250/gitlab",
-      "window.zoomLevel": 0,
-      "shellformat.flag": "-i 4",
-      "javascript.updateImportsOnFileMove.enabled": "always",
-      "[dockerfile]": {
-        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-      },
-      "editor.renderWhitespace": "all",
-      "extensions.ignoreRecommendations": false
-    }
-  ```
+        "workbench.iconTheme": "material-icon-theme",
+        "workbench.colorTheme": "Shades of Purple",
+        "prettier.jsxSingleQuote": true,
+        "prettier.printWidth": 100,
+        "prettier.semi": false,
+        "prettier.useTabs": true,
+        "prettier.tabWidth": 2,
+        "todo-tree.defaultHighlight": {
+          "icon": "alert",
+          "type": "text",
+          "foreground": "red",
+          "background": "white",
+          "opacity": 50,
+          "iconColour": "blue"
+        },
+        "todo-tree.defaultHighlight": {
+          "icon": "alert",
+          "type": "text",
+          "foreground": "red",
+          "background": "white",
+          "opacity": 50,
+          "iconColour": "blue"
+        },
+        "todo-tree.customHighlight": {
+          "TODO": {
+            "icon": "check",
+            "type": "line",
+            "foreground": "black",
+            "iconColour": "red"
+          },
+          "FIXME": {
+            "foreground": "black",
+            "iconColour": "yellow",
+            "icon": "bug"
+          },
+          "ASKFORHELP": {
+            "icon": "heart",
+            "iconColour": "pink"
+          }
+        },
+        "typescript.updateImportsOnFileMove.enabled": "always",
+        "cSpell.userWords": ["urlstations"],
+        "editor.cursorStyle": "line",
+        "editor.cursorBlinking": "expand",
+        "files.trimFinalNewlines": true,
+        "gitlab.instanceUrl": "http://192.168.101.250/gitlab",
+        "window.zoomLevel": 0,
+        "shellformat.flag": "-i 4",
+        "javascript.updateImportsOnFileMove.enabled": "always",
+        "[dockerfile]": {
+          "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+        },
+        "editor.renderWhitespace": "all",
+        "extensions.ignoreRecommendations": false
+      }
+    </code>
+  </pre>
 </details>
 
 ---
@@ -204,44 +206,48 @@ We are missing the last one configuration on VSCode, and it is the **Fira Code**
 
 I had a lot of issues to install that on my machine, so the way that works for me is run a sh script and install by this way.
 
-```bash
-  # Create installer file
-  vi ~/firaCode.sh
+<pre class="prettyprint">
+  <code class="language-bash">
+    # Create installer file
+    vi ~/firaCode.sh
 
-  # Copy and paste everything below into the script
+    # Copy and paste everything below into the script
 
-  #!/usr/bin/env bash
+    #!/usr/bin/env bash
 
-  fonts_dir="${HOME}/.local/share/fonts"
-  if [ ! -d "${fonts_dir}" ]; then
-    echo "mkdir -p $fonts_dir"
-    mkdir -p "${fonts_dir}"
-  else
-    echo "Found fonts dir $fonts_dir"
-  fi
-
-  for type in Bold Light Medium Regular Retina; do
-    file_path="${HOME}/.local/share/fonts/FiraCode-${type}.ttf"
-    file_url="https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-${type}.ttf?raw=true"
-    if [ ! -e "${file_path}" ]; then
-      echo "wget -O $file_path $file_url"
-      wget -O "${file_path}" "${file_url}"
+    fonts_dir="${HOME}/.local/share/fonts"
+    if [ ! -d "${fonts_dir}" ]; then
+      echo "mkdir -p $fonts_dir"
+      mkdir -p "${fonts_dir}"
     else
-      echo "Found existing file $file_path"
-    fi;
-  done
+      echo "Found fonts dir $fonts_dir"
+    fi
 
-  echo "fc-cache -f"
-  fc-cache -f
-```
+    for type in Bold Light Medium Regular Retina; do
+      file_path="${HOME}/.local/share/fonts/FiraCode-${type}.ttf"
+      file_url="https://github.com/tonsky/FiraCode/blob/master/distr/ttf/FiraCode-${type}.ttf?raw=true"
+      if [ ! -e "${file_path}" ]; then
+        echo "wget -O $file_path $file_url"
+        wget -O "${file_path}" "${file_url}"
+      else
+        echo "Found existing file $file_path"
+      fi;
+    done
 
-Then give permission to execute script with `sudo chmod +x ~/firaCode.sh` and then run `sh ~/firaCode.sh`
+    echo "fc-cache -f"
+    fc-cache -f
+  </code>
+</pre>
+
+Then give permission to execute script with <code class="inline">`sudo chmod +x ~/firaCode.sh`</code> and then run <code class="inline">`sh ~/firaCode.sh`</code>
 
 On VsCode configuration is necessary to add two lines to accept those ligatures:
 
-```json
-"editor.fontFamily": "Fira Code",
-"editor.fontLigatures": true
-```
+<pre class="prettyprint" style="display: ">
+  <code class="language-json">
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true
+  </code>
+</pre>
 
 With that config you are able to program in what you want, next post I'll configure zsh terminal and git themes to transform your life into an easy life!!!
