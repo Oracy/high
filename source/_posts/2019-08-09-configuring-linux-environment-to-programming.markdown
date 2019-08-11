@@ -113,7 +113,7 @@ I used to work with VSCode in 90% of my time, so this software never left me in 
 <details>
   <summary><b>User Settings (ctrl + ,)</b></summary>
   
-  <pre class="prettyprint" style="display: ">
+  <pre class="prettyprint" style="border: none !important">
     <code class="language-json">
       {
         "editor.tabSize": 2,
@@ -207,11 +207,15 @@ We are missing the last one configuration on VSCode, and it is the **Fira Code**
 
 I had a lot of issues to install that on my machine, so the way that works for me is run a sh script and install by this way.
 
-<pre class="prettyprint">
+<pre class="prettyprint" style="border: none !important">
   <code class="language-bash">
     # Create installer file
     vi ~/firaCode.sh
+  </code>
+</pre>
 
+<pre class="prettyprint" style="border: none !important">
+  <code class="language-bash">
     # Copy and paste everything below into the script
 
     #!/usr/bin/env bash
@@ -244,7 +248,7 @@ Then give permission to execute script with <code class="inline">`sudo chmod +x 
 
 On VsCode configuration is necessary to add two lines to accept those ligatures:
 
-<pre class="prettyprint" style="display: ">
+<pre class="prettyprint" style="border: none !important">
   <code class="language-json">
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true
