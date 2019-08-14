@@ -55,6 +55,32 @@ So, let's start installing _oh my zsh_:
   chsh -s /bin/zsh
 </pre>
 
+---
+
+## zsh Themes
+
+#### I'll install 'powerlevel9k' theme
+
+Change `~/zshrc` file on line ZSH_THEME, with your theme that you want to use:
+
+<pre class="bash">
+  sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="powerlevel9k\/powerlevel9k"/g' ~/.zshrc
+</pre>
+
+###### just replace powerlevel9k to other theme that you want
+
+#### Add ZSH-AutoSuggestion Plugin (best plugin for me)
+
+This plugin get your last command and auto suggest and autocomplete, just pressing → arrow.
+
+<pre class="bash">
+  # Install plugin:
+  git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+  # Add plugin into zshrc file
+  sed -i 's/plugins=(git)/plugins=(\n\tgit\n\tzsh-autosuggestions\n)/g' ~/.zshrc
+</pre>
+
 sudo apt install cargo
 
 cargo install exa
