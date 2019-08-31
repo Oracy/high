@@ -10,7 +10,7 @@ keywords: nodejs linux
 
 Here you can find an easy way to use nodejs directly from binaries.
 
-So let's start, first of all we need to install from trust place: https://nodejs.org/en/
+So let's start, first of all we need to install from trust place: [NodeJs](https://nodejs.org/en/)
 You can go to this url and download the version that you want, or just type:
 
 <pre class="bash">
