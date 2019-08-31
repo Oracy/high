@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Install Node.js easily way to change version without NVM"
+author: "Oracy Martos"
 date: 2019-08-30 20:39:59
+modified_at: 2019-08-30 20:39:59
 comments: true
 image: https://res.cloudinary.com/dvy4tauff/image/upload/v1567209938/preview_install_node.js_easily_way_to_change_version_without_nvm_lqpnkn.png
 categories: tutorial
