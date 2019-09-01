@@ -171,6 +171,9 @@ task :new_post do
   
   puts 'Please write the post categories'
   @categories = STDIN.gets.chomp
+
+  puts 'Please link for post image:'
+  @image = STDIN.gets.chomp
   
   if File.exists?("#{file}")
     raise 'file already exists'
@@ -179,9 +182,11 @@ task :new_post do
       file << "---\n"
       file << "layout: post\n"
       file << "title: \"#{@name}\"\n"
+      file << "author: \"Oracy Martos\"\n"
       file << "date: #{DATE} #{TIME}\n"
+      file << "modified_at: #{DATE} #{TIME}\n"
       file << "comments: true\n"
-      file << "image: \n"
+      file << "image: #{@image}\n"
       file << "categories: #{@categories} \n"
       file << "keywords: #{@keywords} \n"
       file << "---\n"
