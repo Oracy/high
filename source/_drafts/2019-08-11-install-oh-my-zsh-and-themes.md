@@ -81,6 +81,39 @@ This plugin get your last command and auto suggest and autocomplete, just pressi
   sed -i 's/plugins=(git)/plugins=(\n\tgit\n\tzsh-autosuggestions\n)/g' ~/.zshrc
 </pre>
 
+<pre class="bash">
+  # Customise the Powerlevel9k prompts
+  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
+    dir
+    custom_javascript 
+    vcs
+    newline
+    status
+  )
+  POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+  POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+</pre>
+
+Now we need a good font to see nice icons, I'll use nerd font, you can download on: [nerd-font](https://github.com/ryanoasis/nerd-fonts)
+
+`git clone git@github.com:ryanoasis/nerd-fonts.git`
+
+After download the font, you should move them to `mv nerd-fonts/ ~/.local/share/fonts/`
+
+Next step is add this font as default font to our _zsh terminal_ `echo "POWERLEVEL9K_MODE=\"nerdfont-complete\" >> ~/.zshrc"`
+
+Now we can start our personalization, follow steps below and everything will be fine!! 😄
+
+We have two sectors to configure "left" and "right"
+Left sector just to be pretty Tux icon
+`echo "POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_linux_icon context dir vcs)" >> ~/.zshrc`
+
+<pre class="bash">
+  echo "POWERLEVEL9K_CUSTOM_LINUX_ICON=\"echo ICON \"
+  POWERLEVEL9K_CUSTOM_LINUX_ICON_BACKGROUND=069
+  POWERLEVEL9K_CUSTOM_LINUX_ICON_FOREGROUND=015" >> ~/.zshrc
+</pre>
+
 sudo apt install cargo
 
 cargo install exa
