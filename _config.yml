@@ -20,11 +20,11 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: high
+title: OracyMartos
 description: "Knowledge Sharing, Unix and others techs"
 keywords: "Jekyll, Unix, linux, articles, SEO, blog, web"
-url: http://martosit.com
-baseurl: "/high"
+url: http://oracymartos.com
+baseurl: "/oracymartos"
 google_analytics: UA-93790540-2
 repo: https://github.com/Oracy/high
 disqus_shortname: "oracymartos"
@@ -37,7 +37,7 @@ author:
   bio: "Linux lover!! Enthusiast data science, backend focused on API!!! Always looking for the best project and good food."
   thumb: /images/author.jpg
   email: oramartos_21@hotmail.com
-  url: https://martosit.com/
+  url: https://oracymartos.com/
 
 # Twitter
 twitter:

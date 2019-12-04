@@ -20,7 +20,7 @@
 3. Install Ruby gems: `bundle install`
 4. Start Jekyll server: `bundle exec jekyll serve`
 
-Access, [localhost:4000/high](http://localhost:4000/high)
+Access, [localhost:4000/OracyMartos](http://localhost:4000/OracyMartos)
 
 ### Deploy in Github pages in 2 steps
 

@@ -13,7 +13,7 @@ keywords: rabbitmq, node, js, parallel processing
 How to use RabbitMq with Node.js in the same script, using data that coming from workers?
 Let's go to know how to do that!!
 
-First thing you need to install [RabbitMq](https://www.rabbitmq.com/download.html) and [Nodejs](https://oracy.github.io/high/blog/2019/install-node.js-easily-way-to-change-version-without-nvm/)
+First thing you need to install [RabbitMq](https://www.rabbitmq.com/download.html) and [Nodejs](https://oracy.github.io/OracyMartos/blog/2019/install-node.js-easily-way-to-change-version-without-nvm/)
 
 In this text I'll use to Debian distribution, but I'll do by apt way, you can download and install as you think is better, or follow me to install from Server, until our live Dashboard.
 
