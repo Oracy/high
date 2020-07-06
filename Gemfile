@@ -19,6 +19,7 @@ gem "json", "~> 2"
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
+gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "bourbon", "~>4.3"
   gem "jekyll-feed", "~>0.6"
