@@ -7,7 +7,7 @@ pagination:
 <section class="post-list">
   {% assign work_items = site.posts | sort: 'date' | reverse %}
   {% for post in work_items %}
-    {% include article.html %}
+    {% include article.html username=site.Oracy %}
   {% endfor %}
 
   {% include pagination.html %}
