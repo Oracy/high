@@ -35,18 +35,3 @@ Access, [localhost:4000/high](http://localhost:4000/high)
 - Create a new post: `rake post title="TITLE OF THE POST"`
 
 ---
-
-### Demo and Download
-
-[Demo](https://nandomoreirame.github.io/high/)
-[Download](https://github.com/nandomoreirame/high/archive/master.zip)
-
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
-
-Enjoy :yum:
-
-Credits: github/nandomoreirame
