@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DataSprint"
+title: "DataSprints"
 author: "Oracy Martos"
 date: 2020-08-07 19:45:02
 modified_at: 2020-08-07 19:45:02
@@ -39,6 +39,8 @@ Rodar os comandos `terraform init && terraform plan && terraform apply`.
 A configuração do airflow esta dentro da ec2, e o container rodando, um container com airflow e um container com o postgresql.
 
 Para armazenar os dados estou usando o postgres.
+
+Para acessar o airflow link : [Airflow](http://18.234.23.129:8080/admin/?showPaused=True)
 
 O código da dag esta em [DataSprints dag]({{site.url}}/blog/2020/datasprints-dag)
 
