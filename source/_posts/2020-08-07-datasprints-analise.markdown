@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DataSprint Analise"
+title: "DataSprints Analise"
 author: "Oracy Martos"
 date: 2020-08-07 19:04:38
 modified_at: 2020-08-07 19:04:38
@@ -767,4 +767,4 @@ Image(filename='map_drop_off.png')
 
 ### Conseguir provisionar todo seu ambiente em uma cloud pública, de preferência  AWS.
 
-[Voltar Para Pagina Principal do Projeto]({{site.url}}/blog/2020/datasprint/)
+[Voltar Para Pagina Principal do Projeto]({{site.url}}/blog/2020/datasprints/)

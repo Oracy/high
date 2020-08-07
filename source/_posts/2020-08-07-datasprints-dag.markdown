@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DataSprint Dag"
+title: "DataSprints Dag"
 author: "Oracy Martos"
 date: 2020-08-07 18:53:13
 modified_at: 2020-08-07 18:53:13
@@ -74,4 +74,4 @@ Os Operadores:
 
 Insere os dados tratados, e certos no banco de dados.
 
-[Voltar Para Pagina Principal do Projeto]({{site.url}}/blog/2020/datasprint/)
+[Voltar Para Pagina Principal do Projeto]({{site.url}}/blog/2020/datasprints/)

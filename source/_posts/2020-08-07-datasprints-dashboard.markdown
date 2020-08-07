@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DataSprint Dashboard"
+title: "DataSprints Dashboard"
 author: "Oracy Martos"
 date: 2020-08-07 18:54:01
 modified_at: 2020-08-07 18:54:01
@@ -17,4 +17,4 @@ keywords:
 <img src="{{site.baseurl}}/images/posts/dashboard/3.png"/>
 <img src="{{site.baseurl}}/images/posts/dashboard/4.png"/>
 
-[Voltar Para Pagina Principal do Projeto]({{site.url}}/blog/2020/datasprint/)
+[Voltar Para Pagina Principal do Projeto]({{site.url}}/blog/2020/datasprints/)
