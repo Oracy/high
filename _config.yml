@@ -9,7 +9,9 @@ plugins:
 pagination:
   enabled: true
   per_page: 3
-  permalink: "/page/:num/"
+  permalink: "page/:num/"
+  sort_field: 'date'
+  sort_reverse: true
 
 comments: true
 
@@ -33,7 +35,7 @@ disqus_site_shortname: "oracymartos"
 # Author settings
 author:
   name: Oracy Martos
-  job: DBA, backend developer
+  job: Data Engineer, Backend Developer
   bio: "Linux lover!! Enthusiast data, backend developer focused on server side!!! Always looking for the best project and good food."
   thumb: /images/author.jpg
   email: oramartos_21@hotmail.com

@@ -5,7 +5,7 @@ author: "Oracy Martos"
 date: 2020-07-06 23:01:17
 modified_at: 2020-07-06 23:01:17
 comments: true
-image: http://127.0.0.1:4000/high/images/posts/preview_how_to_aws_sign_up.png
+image: https://res.cloudinary.com/dvy4tauff/image/upload/v1594779269/preview_how_to_aws_sign_up_cylx4t.png
 categories: tutorial, how to, infrastructure, infra 
 keywords: aws, sign up, amazon, ec2, terraform 
 ---

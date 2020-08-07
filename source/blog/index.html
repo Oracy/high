@@ -1,14 +1,19 @@
 ---
-layout: pages
+layout: page
 pagination:
   enabled: true
 ---
 
 <section class="post-list">
-  {% assign work_items = site.posts | sort: 'date' | reverse %}
+  {% assign work_items = paginator.posts | sort: 'date' | reverse %}
+  <!--{% for post in work_items %}
+    {% include article.html %}
+  {% endfor %} --->
+
+  
   {% for post in work_items %}
     {% include article.html %}
   {% endfor %}
-
+  
   {% include pagination.html %}
 </section>
